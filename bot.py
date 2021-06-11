@@ -84,9 +84,9 @@ if __name__ == "__main__" :
 
 FayasNoushad = Client(
     "Rename Bot",
-    bot_token=os.environ.get("TG_BOT_TOKEN", ""),
-    api_id=int(os.environ.get("APP_ID", 12345)),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("1776524697:AAHcGjQyh_IA4FORF-FN-ikTv553_80mSHs", ""),
+    api_id=int(os.environ.get("1741359", 12345)),
+    api_hash=os.environ.get("939eaad9444f8f2954f73346dacf13ad")
 )
 
 @FayasNoushad.on_callback_query()
